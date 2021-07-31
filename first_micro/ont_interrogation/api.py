@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 
-from agency.tools import get_predicate_object, get_objects, get_outgoing_predicates, get_subjects, get_properties, \
+from first_micro.ont_interrogation.tools import get_predicate_object, get_objects, get_outgoing_predicates, get_subjects, get_properties, \
     get_property_values, get_prop_and_values
 
 

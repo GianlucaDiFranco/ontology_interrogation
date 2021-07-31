@@ -1,10 +1,9 @@
 import json
 
 import requests
-from rest_framework.response import Response
 
-from micro import settings
-from sql_query_maker.tools import make_sql_file
+from second_micro import settings
+from third_micro.sql_query_maker.tools import make_sql_file
 from tree_view.classes.choices import EndpointSQL
 
 

@@ -1,6 +1,6 @@
 import json
 import requests
-from micro import settings
+from second_micro import settings
 from tree_view.classes.choices import EndpointAgency
 
 

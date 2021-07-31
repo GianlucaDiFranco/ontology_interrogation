@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware'
 ]
 
-ROOT_URLCONF = 'micro.urls'
+ROOT_URLCONF = 'second_micro.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'micro.wsgi.application'
+WSGI_APPLICATION = 'second_micro.wsgi.application'
 
 
 # Database
@@ -129,18 +129,11 @@ STATICFILES_DIRS = ( os.path.join('static'), )
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-OWL_FILE_NAME = os.environ.get('OWL_FILE_NAME', 'pizza.owl')
-ONTOLOGY_PREFIX = os.environ.get('ONTOLOGY_PREFIX', 'http://www.co-ode.org/ontologies/pizza/pizza.owl#')
-RDFS_PREFIX = os.environ.get('RDFS_PREFIX', 'http://www.w3.org/2000/01/rdf-schema#')
-SKOS_PREFIX = os.environ.get('SKOS_PREFIX', 'http://www.w3.org/2004/02/skos/core#')
-OWL_PREFIX = os.environ.get('SKOS_PREFIX', 'http://www.w3.org/2002/07/owl#')
-DCTERMS_PREFIX = os.environ.get('SKOS_PREFIX', 'http://purl.org/dc/terms/')
-DC_PREFIX = os.environ.get('SKOS_PREFIX', 'http://purl.org/dc/elements/1.1/')
 
 
 #Microservices urls
-AGENCY_API_URL = os.environ.get('AGENCY_API_URL', 'http://127.0.0.1:8000/agency/api/')
-SQL_MAKER_API_URL = os.environ.get('SQL_MAKER_API_URL', 'http://127.0.0.1:8000/sql/api/')
+AGENCY_API_URL = os.environ.get('AGENCY_API_URL', 'http://127.0.0.1:8001/ont_interrogation/api/')
+SQL_MAKER_API_URL = os.environ.get('SQL_MAKER_API_URL', 'http://127.0.0.1:8003/sql/api/')
 
 
 
