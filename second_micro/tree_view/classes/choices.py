@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class EndpointAgency(Enum):
+class EndpointOntInterrogation(Enum):
     SEARCH = 'predicate_obj/'
     SUBJECTS = 'subjects/'
     PREDICATES = 'predicates/'

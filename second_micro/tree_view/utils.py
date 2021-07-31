@@ -2,7 +2,7 @@ import json
 
 from django.http import HttpResponse
 
-from tree_view.agency_api import objects_api, subjects_api, property_values_api
+from tree_view.ont_interrogation_api import objects_api, subjects_api, property_values_api
 
 
 def make_json(request):

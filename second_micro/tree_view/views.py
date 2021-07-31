@@ -3,7 +3,7 @@ import json
 from django.shortcuts import render
 
 # Create your views here.
-from tree_view.agency_api import pred_obj_api, predicates_api, objects_api, properties_api
+from tree_view.ont_interrogation_api import pred_obj_api, predicates_api, objects_api, properties_api
 from tree_view.forms import SearchEntityForm, JSONtoSQL
 from tree_view.sql_qm_api import make_file_api
 
