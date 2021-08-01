@@ -1,8 +1,8 @@
 import rdflib
 from rdflib import URIRef
 
-from first_micro.ont_interrogation.choices import RdfsPrefixPredicate, SkosPrefixPredicate
-from first_micro.ont_interrogation.utils import get_name_from_URI, get_bool_from_str
+from ont_interrogation.choices import RdfsPrefixPredicate, SkosPrefixPredicate
+from ont_interrogation.utils import get_name_from_URI, get_bool_from_str
 from first_micro import settings
 
 g = rdflib.Graph()

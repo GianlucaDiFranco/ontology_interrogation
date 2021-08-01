@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 
-from third_micro.sql_query_maker.tools import make_sql_query
+from sql_query_maker.tools import make_sql_query
 
 
 class SQLViewSet(viewsets.ViewSet):

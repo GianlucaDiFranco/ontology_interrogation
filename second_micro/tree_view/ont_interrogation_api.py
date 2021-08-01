@@ -10,7 +10,7 @@ def pred_obj_api(entity):
     :param entity:
     :return: dizionario con predicati e oggetti
     """
-    rec = requests.get(settings.ONT_INTERROGATION_API_URL +  EndpointOntInterrogation.SEARCH.value + entity)
+    rec = requests.get(settings.ONT_INTERROGATION_API_URL + EndpointOntInterrogation.SEARCH.value + entity)
     print("pred_obj_api con entity {} ritorna {}".format(entity, str(rec.json())))
     return rec.json()
 

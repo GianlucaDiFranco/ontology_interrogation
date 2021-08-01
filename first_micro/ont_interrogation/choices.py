@@ -1,5 +1,3 @@
-from enum import Enum
-
 SkosPrefixPredicate = ['prefLabel', 'definition', 'altLabel']
 
 RdfsPrefixPredicate = ['comment', 'isDefinedBy', 'label', 'subClassOf', 'seeAlso']

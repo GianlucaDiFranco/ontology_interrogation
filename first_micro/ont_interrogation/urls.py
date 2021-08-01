@@ -1,6 +1,6 @@
 from django.urls import path
 
-from first_micro.ont_interrogation.api import PredObjViewSet, ObjectViewSet, PredicateViewSet, SubjectViewSet, PropertyViewSet, \
+from ont_interrogation.api import PredObjViewSet, ObjectViewSet, PredicateViewSet, SubjectViewSet, PropertyViewSet, \
     PropertyValueViewSet
 
 urlpatterns = [

@@ -3,8 +3,17 @@ import json
 import requests
 
 from second_micro import settings
-from third_micro.sql_query_maker.tools import make_sql_file
+from django.http import HttpResponse
+
 from tree_view.classes.choices import EndpointSQL
+
+
+def make_sql_file(text, file_name):
+    response = HttpResponse()
+    response['content_type'] = 'application/sql'
+    response['Content-Disposition'] = 'attachment; filename={}.sql'.format(file_name)
+    response.write(text)
+    return response
 
 
 def make_file_api(json_file_name, json_data, isolated_properties):
