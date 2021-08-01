@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--xi3*@aau$k#z-htw$p1c)x^hhs@2&1mxdnfyxv1@o4@ppf^gh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -132,7 +132,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 #Microservices urls
-ONT_INTERROGATION_API_URL = os.environ.get('AGENCY_API_URL', 'http://127.0.0.1:8001/ont_interrogation/api/')
+ONT_INTERROGATION_API_URL = os.environ.get('ONT_INTERROGATION_API_URL', 'http://127.0.0.1:8001/ont_interrogation/api/')
 SQL_MAKER_API_URL = os.environ.get('SQL_MAKER_API_URL', 'http://127.0.0.1:8003/sql/api/')
 
 
