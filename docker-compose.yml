@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  ont_interrogation:
+    build:
+      context: first_micro/
+      dockerfile: Dockerfile
+    ports:
+      - 8001:8001
+  tree_view:
+    build:
+      context: second_micro/
+      dockerfile: Dockerfile
+    ports:
+      - 8002:8002
+  sql_maker:
+    build:
+      context: third_micro/
+      dockerfile: Dockerfile
+    ports:
+      - 8003:8003
