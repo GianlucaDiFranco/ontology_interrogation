@@ -64,7 +64,7 @@ Per quanto riguarda i microservizi ONT_INTERROGATION e SQL_MAKER saranno avviati
 
 ### Ricerca di un'entità
 
-Per navigare l'ontologia e visualizzare predicati/proprietà relativi ad un'entità, basterà digitare nell'apposito campo il nome dell'entità. (nell'esempio proprosto è stata cercata l'entità "Margherita").
+Per navigare l'ontologia e visualizzare predicati/proprietà relativi ad un'entità, basterà digitare nell'apposito campo l'URI privo di prefisso dell'entità. (nell'esempio proprosto è stata cercata l'entità "Margherita").
 
 ![img_4.png](img_4.png)
 
