@@ -66,17 +66,17 @@ Per quanto riguarda i microservizi ONT_INTERROGATION e SQL_MAKER saranno avviati
 
 Per navigare l'ontologia e visualizzare predicati/proprietà relativi ad un'entità, basterà digitare nell'apposito campo l'URI privo di prefisso dell'entità. (nell'esempio proprosto è stata cercata l'entità "Margherita").
 
-![img_4.png](img_4.png)
+![img_4.png](docs/images/img_4.png)
 
 Il risultato della ricerca è quello mostrato nella figura sottostante.
 
-![img_5.png](img_5.png)
+![img_5.png](docs/images/img_5.png)
 
 Dopo aver selezionato i predicati e le proprietà desiderate, sarà possibile generare un JSON contenente i dati selezionati relativamente alle entità figlie del padre dell'entità cercata.
 
 Il JSON così generato potrà essere inserito all'interno del campo mostrato nell'immagine sotto per generare un file .sql.
 
-![img_6.png](img_6.png)
+![img_6.png](docs/images/img_6.png)
 
 Se la casella Proprietà Isolate non è spuntata:
 -   Viene creata un’unica tabella avente una colonna per ogni campo selezionato precedentemente.
